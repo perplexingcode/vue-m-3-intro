@@ -10,13 +10,15 @@
   </head>
   <body>
     <div id="app">
-      <h1{{product}}</h1>
+      <h1>{{product}}</h1>
     </div>
 
     <!-- Import App -->
     <script src="./main.js"></script>
     <script>
       const mountedApp = app.mount('#app');
+      console.log(mountedApp);
+      console.log(mountedApp.product);
     </script>
   </body>
 </html>
